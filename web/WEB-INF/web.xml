@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>Checked_in</servlet-name>
+        <servlet-class>main.servlets.CheckInServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Checked_in</servlet-name>
+        <url-pattern>/Checked_in</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>main.servlets.SignUpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/SignUpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateOrganisationServlet</servlet-name>
+        <servlet-class>main.servlets.CreateOrganisationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateOrganisationServlet</servlet-name>
+        <url-pattern>/CreateOrganisationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckProfileInfo</servlet-name>
+        <servlet-class>main.servlets.CheckProfileInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckProfileInfo</servlet-name>
+        <url-pattern>/CheckProfileInfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateClass</servlet-name>
+        <servlet-class>main.servlets.CreateClassServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateClass</servlet-name>
+        <url-pattern>/CreateClass</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateTest</servlet-name>
+        <servlet-class>main.servlets.CreateTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateTest</servlet-name>
+        <url-pattern>/CreateTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindTest</servlet-name>
+        <servlet-class>main.servlets.FindTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FindTest</servlet-name>
+        <url-pattern>/FindTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddQuestion</servlet-name>
+        <servlet-class>main.servlets.AddQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddQuestion</servlet-name>
+        <url-pattern>/AddQuestion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAnswer</servlet-name>
+        <servlet-class>main.servlets.AddAnswerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddAnswer</servlet-name>
+        <url-pattern>/AddAnswer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditAnswer</servlet-name>
+        <servlet-class>main.servlets.EditAnswerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditAnswer</servlet-name>
+        <url-pattern>/EditAnswer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditQuestion</servlet-name>
+        <servlet-class>main.servlets.EditQuestionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditQuestion</servlet-name>
+        <url-pattern>/EditQuestion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditTest</servlet-name>
+        <servlet-class>main.servlets.EditTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditTest</servlet-name>
+        <url-pattern>/EditTest</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindTestToTake</servlet-name>
+        <servlet-class>main.servlets.FindTestToTakeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FindTestToTake</servlet-name>
+        <url-pattern>/FindTestToTake</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddStudentToClass</servlet-name>
+        <servlet-class>main.servlets.AddStudentToClassServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddStudentToClass</servlet-name>
+        <url-pattern>/AddStudentToClass</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitAnswer</servlet-name>
+        <servlet-class>main.servlets.SubmitAnswerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubmitAnswer</servlet-name>
+        <url-pattern>/SubmitAnswer</url-pattern>
+    </servlet-mapping>
+</web-app>
